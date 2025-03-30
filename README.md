@@ -22,6 +22,8 @@ Jupyter Notebook to interaktywne środowisko pracy, działające w przeglądarce
 
 Instalacja:
 
+Wymagane : python (najlepiej wersja 3.12)
+
 ```
 # instalacja jupyter lab 
 pip install jupyterlab
