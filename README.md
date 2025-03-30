@@ -53,6 +53,25 @@ Stworzenie maszyny dla JupyterLab
 
 <img src=https://github.com/Behton/Technologii-internetowych/blob/main/img/img.png>
 
+Integracja git z maszyna compute vm w Azure.
+```
+git clone git@github.com:Behton/Technologii-internetowych.git
+git config --global --add safe.directory /mnt/batch/tasks/shared/LS_root/mounts/clusters/light-vm/code/Users/Technologii-internetowych
+git config --global user.email ""  
+git config --global user.name ""
+```
+
+Tworzenie autentykacji poprzez klucz ssh na vm w Azure
+```
+(azureml_py38) azureuser@light-vm:/mnt/batch/tasks/shared/LS_root/mounts/clusters/light-vm/code$ cd ~
+(azureml_py38) azureuser@light-vm:~$ cd .ssh/
+(azureml_py38) azureuser@light-vm:~/.ssh$ ls
+authorized_keys  config  github  github.pub  known_hosts
+(azureml_py38) azureuser@light-vm:~/.ssh$ cat config 
+HostName github.com 
+        IdentityFile ~/.ssh/github
+(azureml_py38) azureuser@light-vm:~/.ssh$ 
+```
 
 
 
