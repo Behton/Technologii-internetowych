@@ -51,6 +51,8 @@ Narzędzia MLOps ułatwiają monitorowanie, ponowne trenowanie i ponowne wdraża
 
 Stworzenie maszyny dla JupyterLab
 
+<img src=https://github.com/Behton/Technologii-internetowych/blob/main/img/img.png>
+
 
 
 
