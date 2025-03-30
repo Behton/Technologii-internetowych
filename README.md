@@ -73,6 +73,8 @@ HostName github.com
 (azureml_py38) azureuser@light-vm:~/.ssh$ 
 ```
 
+Pushowanie repo z JupyterLab
+![image](https://github.com/user-attachments/assets/cdd62210-f82b-4bd0-af45-3ad841df177b)
 
 
 
