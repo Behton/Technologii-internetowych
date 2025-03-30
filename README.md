@@ -54,6 +54,9 @@ Stworzenie maszyny dla JupyterLab
 <img src=https://github.com/Behton/Technologii-internetowych/blob/main/img/img.png>
 
 Integracja git z maszyna compute vm w Azure.
+
+![image](https://github.com/user-attachments/assets/cdd62210-f82b-4bd0-af45-3ad841df177b)
+
 ```
 git clone git@github.com:Behton/Technologii-internetowych.git
 git config --global --add safe.directory /mnt/batch/tasks/shared/LS_root/mounts/clusters/light-vm/code/Users/Technologii-internetowych
@@ -74,7 +77,12 @@ HostName github.com
 ```
 
 Pushowanie repo z JupyterLab
-![image](https://github.com/user-attachments/assets/cdd62210-f82b-4bd0-af45-3ad841df177b)
+```
+git add file_name
+git status
+git commit -m "nowy commit"
+git push 
+```
 
 
 
